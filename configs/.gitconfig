@@ -1,0 +1,34 @@
+[user]
+        name = 
+        email =
+[credential]
+        helper = osxkeychain
+[push]
+        default = upstream
+[pull]
+	rebase = true
+[merge]
+	tool = vimdiff
+	ff = false
+[diff]
+        tool = vimdiff
+[branch]
+        autosetuprebase = always
+[core]
+        excludesfile = ~/.gitignore
+	autocrlf = input
+	editor = vim
+	quotepath = false
+[alias]
+        st = status
+        cho = checkout
+        lg = log -p
+        chp = cherry-pick
+
+[tig "bind"]
+        main = d none
+
+
+
+
+

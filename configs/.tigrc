@@ -1,0 +1,23 @@
+# Set command
+set vertical-split = no
+set split-view-height = 80%
+set diff-options = --ignore-space-change
+
+# Bind keys
+bind generic <Ctrl-t> move-first-line
+bind generic <Ctrl-g> move-last-line
+bind generic <Ctrl-b> view-blame
+bind generic <C-F> move-page-down
+bind generic b move-page-up
+
+# View settings
+set main-view = line-number:yes,interval=5 \
+		id:yes \
+		date:default \
+		author:full \
+		commit-title:yes,graph,refs,overflow=no
+
+# Color command
+color cursor black white bold standout
+
+
